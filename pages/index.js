@@ -1,5 +1,18 @@
-function Home () {
-    return <div>Início do projeto da minha página web</div>
-}
+import Head from 'next/head'
+import Layout, { siteTitle } from '../components/layout'
+import utilStyles from '../styles/utils.module.css'
 
-export default Home;
+export default function Home() {
+  return (
+    <Layout home>
+      <Head>
+        <title>{siteTitle}</title>
+      </Head>
+      <section className={utilStyles.headingMd}>
+        <p>Olá, sou o Max. Sou desenvoldedor de software com foco em aplicações web. Entre em contato comigo pelo
+          <a href="https://www.linkedin.com/in/maxwelldantas" target="_blank"> LinkedIn</a>.
+        </p>
+      </section>
+    </Layout>
+  )
+}
