@@ -10,7 +10,7 @@ export default function Home() {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          Olá, sou o Max. Sou desenvoldedor de software com foco em aplicações web. Entre em contato comigo pelo <a href="https://www.linkedin.com/in/maxwelldantas"
+          Sejam bem-vindos(as). Atuo como desenvoldedor de software Back-End. Entre em contato comigo pelo <a href="https://www.linkedin.com/in/maxwelldantas"
             target="_blank">LinkedIn</a> e os repositórios com meus projetos se encontram no <a href="https://github.com/maxwelldantas" target="_blank">GitHub</a>.
         </p>
       </section>
