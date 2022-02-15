@@ -7,7 +7,7 @@ export default function Home() {
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9926332213560190" crossorigin="anonymous"></script>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8020244450425935" crossorigin="anonymous"></script>
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
