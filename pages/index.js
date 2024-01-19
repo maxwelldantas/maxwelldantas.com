@@ -30,7 +30,7 @@ export default function Home() {
         </p>
         <p>
           Acesse{" "}
-          <a href="http://localhost:3000/mycv" target="_blank">
+          <a href="https://maxwelldantas.com/mycv" target="_blank">
             aqui
           </a>{" "}
           meu CV.
