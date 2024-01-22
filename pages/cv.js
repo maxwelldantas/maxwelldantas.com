@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function MyCv() {
+export default function Cv() {
   const pdfUrl = "/files/Maxwell_CV.pdf";
 
   return (
