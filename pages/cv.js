@@ -1,14 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
+import { Document } from "react-pdf";
 
 export default function Cv() {
   const pdfUrl = "/files/Maxwell_CV.pdf";
-  const [alturaIframe, setAlturaIframe] = useState(0);
-
-  useEffect(() => {
-    const alturaTela = window.innerHeight;
-    const novaAlturaIframe = alturaTela - 115;
-    setAlturaIframe(novaAlturaIframe);
-  }, []);
 
   return (
     <div>
@@ -21,13 +15,7 @@ export default function Cv() {
       >
         Curriculum Vitae
       </h1>
-      <iframe
-        src={pdfUrl}
-        width="100%"
-        height={`${alturaIframe}px`}
-        title="Curriculum Vitae"
-        style={{ border: "20px solid rgb(60, 60, 60)" }}
-      />
+      <Document file={pdfUrl} width="100%" height="100%" />
     </div>
   );
 }
