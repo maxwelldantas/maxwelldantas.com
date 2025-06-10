@@ -1,4 +1,5 @@
 import React from "react";
+import { Document } from "react-pdf";
 
 export default function Cv() {
   const pdfUrl = "/files/Maxwell_CV.pdf";
@@ -14,7 +15,7 @@ export default function Cv() {
       >
         Curriculum Vitae
       </h1>
-      <embed src={pdfUrl} type="application/pdf" width="100%" height="820px" />
+      <Document file={pdfUrl} width="100%" height="820px" />
     </div>
   );
 }
