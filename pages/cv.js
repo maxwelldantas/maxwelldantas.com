@@ -39,7 +39,7 @@ export default function Cv() {
         src={pdfUrl}
         width={iframeWidth}
         height={`${iframeHeight}px`}
-        allowfullscreen="false"
+        allowfullscreen
         title="Curriculum Vitae"
         style={{
           border: "20px solid rgb(60, 60, 60)",
