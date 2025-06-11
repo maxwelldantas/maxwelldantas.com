@@ -4,7 +4,7 @@ export default function Cv() {
   const pdfUrl =
     "https://drive.google.com/file/d/1Q0i29C52gbcuHMB7r1MRUTePP15tCzWC/preview";
 
-  const iframeWidth = "50%";
+  const iframeWidth = "100%";
   const [iframeHeight, setIframeHeight] = useState(0);
 
   useEffect(() => {
